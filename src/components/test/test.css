@@ -1,0 +1,43 @@
+
+.client__avatar {
+    width: 8rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem dolif var(--color-primari-variant);
+}
+
+.test {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.client__review {
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 800;
+    margin: 0.7rem auto 0;
+}
+
+/* media quertes mediuuuuuuuuuuuuum */
+@media screen and (max-width:1012px) {
+    .test__container {
+        width: 60%;
+    }
+}
+
+/* media quertes mediuuuuuuuuuuuuum */
+@media screen and (max-width:1012px) {
+    .test__container {
+        width: var(--container-width-sm);
+    }
+
+    .client__review {
+        width: var(--container-width-sm);
+    }
+}
